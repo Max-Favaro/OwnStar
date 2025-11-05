@@ -1,43 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OwnStar</title>
-    <link rel="stylesheet" href="estilo.css">
-    <!--Meu segundo projeto 17/02/21 a 20/02/21-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OwnStar</title>
+  <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header>Seja dono de um Estrela</header>
-    <main>
-    <Section><div class="container">
-        <div class="box3D">
-        <div class="sneaker"><img src="satelite.png" alt="satelite">
-        <div class="circulo"></div>
+  <header>
+    <h1>Seja dono de uma Estrela</h1>
+  </header>
+
+  <main>
+    <section class="container">
+      <div class="box3D">
+        <div class="sneaker">
+          <img src="satelite.png" alt="Imagem de um satélite" />
+          <div class="circulo"></div>
         </div>
         <div class="info">
-        <h1 class="marca">OwnStar</h1>
-        <h3>SATELITE DE BAIXO CUSTO E ALTO DESEMPENHO COM UM NOVO SISTEMA DE COMUNICAÇÃO BASEADO NA INTERNET.</h3>            </div>
+          <h2 class="marca">OwnStar</h2>
+          <p class="descricao">
+            Satélite de baixo custo e alto desempenho com um novo sistema de comunicação baseado em inteligencia artificial
+          </p>
         </div>
-    </div>
-        <form name="Cadastro">
+      </div>
+
+      <form id="formCadastro">
         <h2>Cadastre-se</h2>
-        <div>
-        <label for="nome">Nome</label>
-        <input type="text" id="nomeid" placeholder="Elio Musky" required="required" name="nome" />
-        </div><div>
-        <label for="fone">Telefone</label>
-        <input type="telefone" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone" />
-        </div><div>
-        <label for="email">Email</label>
-        <input type="email" id="emailid" placeholder="Eliomusky@mail.com" name="email" />
-        </div>
-        <input type= "button" id="aplicar" value="Cadastrar" onclick="thx()">
-        </form>
-    </Section>
-    </main>
-    <footer>&copy; 2021 Projeto B by Maxwel </footer>
-    <script src="code.js"></script>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Elon Musk" required>
+
+        <label for="fone">Telefone:</label>
+        <input type="tel" id="fone" placeholder="(xx) xxxxx-xxxx" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="elonmusk@mail.com" required>
+
+        <button type="submit" id="aplicar">Cadastrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Projeto OwnStar. Todos os direitos reservados by Max
+  </footer>
+
+  <script src="code.js"></script>
 </body>
 </html>

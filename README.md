@@ -1,2 +1,7 @@
 # Projeto-OwnSatelite
-Coloquei em pratica algumas coisas que aprendi
+
+Uma pagina formulario, card interativo e elementos dimensionais
+
+## Tecnologias
+
+HTML, CSS e JS

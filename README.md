@@ -1,4 +1,4 @@
-# Projeto-OwnSatelite
+# OwnSatelite
 
 Uma pagina formulario, card interativo e elementos dimensionais
 
